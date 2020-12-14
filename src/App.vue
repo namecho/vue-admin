@@ -3,10 +3,9 @@
     <router-view />
   </div>
 </template>
-<script>
-export default {
-  created() {
-    console.log(this.$store);
-  }
-};
-</script>
+
+<style lang="scss" scoped>
+#app {
+  height: 100%;
+}
+</style>
